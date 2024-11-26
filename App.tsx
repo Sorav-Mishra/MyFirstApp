@@ -215,8 +215,8 @@ function App(): React.JSX.Element {
             Visit Rishikesh
           </Text>
         </View>
-        <Blog />
         <Contact />
+        <Blog />
       </ScrollView>
     </SafeAreaView>
   );

@@ -4,6 +4,7 @@ import myImage from '../images/IMG.jpg';
 import C from '../images/chai.jpg';
 import apna from '../images/apnacollage.jpeg';
 import java from '../images/javascript.jpg';
+
 const Contact: React.FC = () => {
   return (
     <>
@@ -29,7 +30,6 @@ const Contact: React.FC = () => {
           <Text style={styles.text}>JavaScript</Text>
           <Text style={styles.text4}>Check Chai and Code Youtube Channel</Text>
         </View>
-        <Text style={styles.contact}>MY FIRST APP</Text>
       </View>
     </>
   );
@@ -40,8 +40,9 @@ const styles = StyleSheet.create({
     color: 'gray',
     fontSize: 30,
     //fontWeight: 'bold',
-    textAlign: 'center',
-    marginVertical: 20,
+    // textAlign: 'center',
+    marginVertical: 10,
+    marginHorizontal: 10,
   },
   margin: {
     // margin: 10,
